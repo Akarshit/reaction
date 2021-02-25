@@ -1,23 +1,23 @@
 {
-  "name": "reaction-api",
-  "version": "3.11.1",
-  "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
+  "name": "api-server",
+  "version": "4.0.0",
+  "description": "Mailchimp Open Commerce is a modern reactive, real-time event driven ecommerce platform.",
   "main": "./src/index.js",
   "type": "module",
   "engines": {
     "node": ">=14.11.0"
   },
-  "homepage": "https://github.com/reactioncommerce/reaction",
-  "url": "https://github.com/reactioncommerce/reaction",
-  "email": "reaction@reactioncommerce.com",
+  "homepage": "https://github.com/mailchimp-open-commerce/api-server",
+  "url": "https://github.com/mailchimp-open-commerce/api-server",
+  "email": "contact@opencommerce.mailchimp.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactioncommerce/reaction.git"
+    "url": "https://github.com/mailchimp-open-commerce/api-server.git"
   },
-  "author": "Reaction Commerce <hello@reactioncommerce.com>",
+  "author": "Mailchimp Open Commerce <hello@opencommerce.mailchimp.com>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/reactioncommerce/reaction/issues"
+    "url": "https://github.com/mailchimp-open-commerce/api-server/issues"
   },
   "dependencies": {
     "@reactioncommerce/api-core": "~1.4.2",
@@ -138,7 +138,7 @@
   },
   "graphql-schema-linter": {
     "customRulePaths": [
-      ".reaction/graphql-linter/rules/*.cjs"
+      ".moc/graphql-linter/rules/*.cjs"
     ],
     "rules": [
       "arguments-have-descriptions",

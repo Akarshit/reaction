@@ -7,26 +7,26 @@ import { internalTagIds, opaqueTagIds } from "./mockTags";
  */
 
 export const internalProductIds = ["999", "222"];
-export const opaqueProductIds = ["cmVhY3Rpb24vcHJvZHVjdDo5OTk=", "cmVhY3Rpb24vcHJvZHVjdDoyMjI="]; // reaction/product
+export const opaqueProductIds = ["cmVhY3Rpb24vcHJvZHVjdDo5OTk=", "cmVhY3Rpb24vcHJvZHVjdDoyMjI="]; // moc/product
 
 export const internalVariantIds = ["875", "874", "873"];
 export const opaqueVariantIds = [
   "cmVhY3Rpb24vcHJvZHVjdDo4NzU=",
   "cmVhY3Rpb24vcHJvZHVjdDo4NzQ=",
   "cmVhY3Rpb24vcHJvZHVjdDo4NzM="
-]; // reaction/product
+]; // moc/product
 
 export const internalCatalogProductIds = ["999", "222"];
-export const opaqueCatalogProductIds = ["cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3Q6OTk5", "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3Q6MjIy"]; // reaction/catalogProduct
+export const opaqueCatalogProductIds = ["cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3Q6OTk5", "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3Q6MjIy"]; // moc/catalogProduct
 
 export const opaqueCatalogVariantIds = [
   "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3RWYXJpYW50Ojg3NQ==",
   "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3RWYXJpYW50Ojg3NA==",
   "cmVhY3Rpb24vY2F0YWxvZ1Byb2R1Y3RWYXJpYW50Ojg3Mw=="
-]; // reaction/catalogProductVariant
+]; // moc/catalogProductVariant
 
 export const internalCatalogItemIds = ["999", "222"];
-export const opaqueCatalogItemIds = ["cmVhY3Rpb24vY2F0YWxvZ0l0ZW06OTk5", "cmVhY3Rpb24vY2F0YWxvZ0l0ZW06MjIy"]; // reaction/catalogItem
+export const opaqueCatalogItemIds = ["cmVhY3Rpb24vY2F0YWxvZ0l0ZW06OTk5", "cmVhY3Rpb24vY2F0YWxvZ0l0ZW06MjIy"]; // moc/catalogItem
 
 export const createdAt = new Date("2018-04-16T15:34:28.043Z");
 export const updatedAt = new Date("2018-04-17T15:34:28.043Z");

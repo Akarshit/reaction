@@ -10,5 +10,5 @@ labels: 'questions'
 
 Please contact us instead. We are active in gitter and twitter:
 
-- [Gitter](https://gitter.im/reactioncommerce/reaction)
+- [Gitter](https://gitter.im/mailchimp-open-commerce/api-server)
 - [Twitter](https://twitter.com/getreaction)

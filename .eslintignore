@@ -1,5 +1,5 @@
 jest.config.js
-.reaction/**/*
+.moc/**/*
 client/plugins.js
 server/plugins.js
 imports/plugins/*/*/node_modules
