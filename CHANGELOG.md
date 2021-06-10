@@ -1,3 +1,10 @@
+## [3.11.4](https://github.com/akarshit/reaction/compare/v3.11.3...v3.11.4) (2021-06-10)
+
+
+### Bug Fixes
+
+* testing new release v3.11.4 ([3f1684c](https://github.com/akarshit/reaction/commit/3f1684cd155555ea14e444735ffd10142391b478))
+
 ## [3.11.3](https://github.com/akarshit/reaction/compare/v3.11.2...v3.11.3) (2021-06-10)
 
 
