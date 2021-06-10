@@ -1,6 +1,6 @@
 {
   "name": "reaction-api",
-  "version": "2.0.0",
+  "version": "3.11.1",
   "description": "Reaction is a modern reactive, real-time event driven ecommerce platform.",
   "main": "./src/index.js",
   "type": "module",
@@ -18,7 +18,7 @@
       [
         "@semantic-release/exec",
         {
-          "prepare": "ech ${lastRelease.version} && sed -i 's/${lastRelease.version}/${nextRelease.version}/g' docker-compose.yml && cat docker-compose.yml"
+          "prepare": "sed -i 's/${lastRelease.version}/${nextRelease.version}/g' docker-compose.yml"
         }
       ],
       [
@@ -43,7 +43,7 @@
             "CHANGELOG.md",
             "docker-compose.yaml"
           ],
-          "message": "chore(release): ${nextRelease.version} [skip ci]"
+          "message": "chore(release): v${nextRelease.version} [skip ci]"
         }
       ]
     ]
